@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form method="POST" enctype="multipart/form-data" action="/ylss/doctor/submitVerify.do?phoneNo=18822037016&token=1">
+
+       手机号  <br />
+              性别 	男：<input type="radio" checked="checked" name="sex" value="man" />
+	        	女：<input type="radio" name="sex" value="woman" /> <br/>
+
+	出生日期 <input type="date" name="birthday"><br />
+		   	
+		   	科室<select name="department">
+		<option value="内科">内科</option>
+		</select> <br />
+   
+	身份证号 <input type="text" name="idCard" value="1"><br />
+	行医资格证编号 <input type="text" name="qualificationNo" value="1"><br />
+	支付宝帐号 <input type="text" name="alipayNo" value="1"><br />
+	 <br/>
+	 
+	擅长疾病 <input type="text" name="specialty" value="1"><br />
+	所在医院 <input type="text" name="hospital" value="1"> <br/>
+
+	身份证照 <input type="file" name="img[]"><br /> 	
+	行医资格证 <input type="file" name="img[]"><br /> 
+	资质证书 <input type="file" name="img[]"><br /> 
+	
+		 <input type="submit"
+			value="Upload">
+					
+	</form>
+
+</body>
+</html>

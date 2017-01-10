@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebContent/admin/addOffer.jsp=UTF-8
+encoding//WebContent/admin/fail.jsp=UTF-8
+encoding//WebContent/admin/success.jsp=UTF-8
+encoding//conf/jdbc.properties=UTF-8
+encoding//conf/log4j.properties=UTF-8
+encoding//src/ylss/model/logic/UserRegist.java=UTF-8
